@@ -1,6 +1,6 @@
 const MARKET_PAGES = [
   {
-    node: "FurrMart",
+    node: "Ternoa Items",
     url: "/",
   },
 ];

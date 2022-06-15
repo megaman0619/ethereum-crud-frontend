@@ -56,7 +56,7 @@ const HeaderPart = (props: Props) => {
 
   const handleConnectWallet = async () => {
     const wallet = await connectWallet()
-    if ( !wallet) {
+    if (!wallet) {
       dispatch(setConnectFlag(false))
     } else {
       setWalletAddress(wallet)
@@ -73,7 +73,7 @@ const HeaderPart = (props: Props) => {
         >
           <div className={`d-flex align-items-center justify-content-between ${styles.menu_link}`}>
             <div className={`${styles.logowrapper}`}>
-              <Link to='/'><img src={`${getImg(logo)}`} className={`${styles.logo}`} alt="logo" /></Link>
+              <Link to='/'><img src='/assets/ternoa_logo.svg' className={`${styles.logo}`} alt="logo" /></Link>
             </div>
           </div>
 
@@ -90,7 +90,7 @@ const HeaderPart = (props: Props) => {
         <header className={`d-flex align-items-center justify-content-between global-padding pb-16 pt-16 ${styles.header}`}>
           <div className={`d-flex align-items-center justify-content-between ${styles.menu_link}`}>
             <div className={`${styles.logowrapper}`}>
-              <Link to='/'><img src={`${getImg(logo)}`} className={`${styles.logo}`} alt="logo" /></Link>
+              <Link to='/'><img src='/assets/ternoa_logo.svg' className={`${styles.logo}`} alt="logo" /></Link>
             </div>
             <div className={`d-flex align-items-center justify-content-center ${styles.wallet_button}`}>
               <div

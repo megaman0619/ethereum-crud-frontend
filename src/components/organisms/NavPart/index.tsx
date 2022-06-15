@@ -88,7 +88,7 @@ const HeaderPart = (props: Props) => {
 
   const handleAddItem = async () => {
     const param = {
-      itemName: 'Furr Mart',
+      itemName: 'Ternoa Item',
       itemAmount: 10
     }
     dispatch(addItem(param, value))
