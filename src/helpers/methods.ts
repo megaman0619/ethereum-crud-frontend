@@ -32,11 +32,11 @@ const connectWallet = async () => {
       const account = accounts[0]
       return shortAddress(account)
     } catch (err) {
-      toast.error('Something went wrong', { theme: 'dark'});
+      toast.error('Something went wrong', { theme: 'dark' });
       return null;
     }
   } else {
-    toast.error("Install Metamask!", { theme: 'dark'});
+    toast.error("Install Metamask!", { theme: 'dark' });
     return null;
 
   }
