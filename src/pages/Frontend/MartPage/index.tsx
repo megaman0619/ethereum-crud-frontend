@@ -83,7 +83,7 @@ const MartPage = () => {
             </MainContent>
           </>
           :
-          <div style={{ height: "calc(100vh - 118px)" }}>
+          <div style={{ height: "100vh" }}>
             <Grid container justifyContent="center">
               <div className="fontQuick" style={{ marginTop: '150px', textAlign: 'center', color: 'white', fontSize: '24px' }}>Please connect a Metamask to start.</div>
             </Grid>
